@@ -1,0 +1,54 @@
+//cash out
+$(document).on('click','.questionCashActive', function(event) {
+    event.preventDefault();
+    var match_id = $('.titleCheck').text();
+    var match_id_id = $(this).attr("id");
+    $.ajax({
+        method: "POST",
+        url: "betPanelActionCashOut.php",
+        data: {
+            cash_active_sub_title: match_id_id
+        },
+        success: function (data) {
+            //page refresh
+            $("#liveMatchFetch").load('betLiveContent.php',{matchId: match_id});
+            
+        }
+    });
+});
+$(document).on('click','.questionCashStop', function(event) {
+    event.preventDefault();
+    var match_id = $('.titleCheck').text();
+    var match_id_id = $(this).attr("id");
+    $.ajax({
+        method: "POST",
+        url: "betPanelActionCashOut.php",
+        data: {
+            cash_stop_sub_title: match_id_id
+        },
+        success: function (data) {
+            //page refresh
+            $("#liveMatchFetch").load('betLiveContent.php',{matchId: match_id});
+        }
+    });
+});
+$(document).on('click', '#limitRateForQuestionSubmitCash', function (event) {
+    event.preventDefault();
+    var match_id = $('.titleCheck').text();
+    var question_id = $('#questionIdForLimit').val();
+    var limitRateForQuestion = $('#limitRateForQuestion').val();
+    $.ajax({
+        method: "POST",
+        url: "betPanelActionCashOut.php",
+        data: {
+            question_id_for_limit: question_id,
+            limitRateForQuestion: limitRateForQuestion
+        },
+        success: function (data) {
+            $('#limitRateForQuestion').val('');
+            $("#limitQuestionSuccess").html(data);
+            //page refresh
+            $("#liveMatchFetch").load('betLiveContent.php',{matchId: match_id});
+        }
+    });
+});

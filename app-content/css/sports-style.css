@@ -1,0 +1,81 @@
+.live-upcoming{
+	list-style: none;
+	margin-left: 10%;
+	background: #696969;
+}
+
+.bet-close{
+	display: none;
+	cursor: pointer;
+}
+#bet-close{
+	position: absolute;
+	right: 3%;
+	font-weight: bold;
+}
+.delete-bet-option{
+	font-weight: bold;
+}
+.betNotification{
+	font-size: 5px;
+	border-radius: 50%;
+}
+.countABet{
+	font-size: 15px;
+	background: orange;
+	color: black;
+	font-weight: bold;
+	border-radius: 50%;
+	width: 15px;
+}
+.default-stake-rate{
+	margin-left: 2%;
+}
+.default-rate{
+	text-align: center;
+	width: 16%;
+	float: left;
+	color: #ffffff;
+	border: 1px solid;
+	cursor: pointer;
+}
+.default-rate:hover {
+	background: orange;
+	color: black;
+}
+.error-holder{
+	color: orange;
+}
+
+@media screen and (max-width: 760px) {
+	.mid-col{
+		width: 100%;
+	}
+	#column365{
+		display: none;
+	}
+	#betslip-wrapper{
+	  position: fixed; 
+	  z-index: 0;
+      left: 0;
+      bottom: 5px;
+      width: 100%; 
+	}
+	.points-holder{
+		position: fixed;
+		width: 100%;
+	}
+	.betslp li{
+		margin-left: 10%;
+	}
+	.bet-close{
+		display: block;
+	}
+	.break{
+		margin-left: 4%;
+		width: 94%;
+	}
+	.default-stake-rate{
+		margin-left: 2%;
+	}
+}

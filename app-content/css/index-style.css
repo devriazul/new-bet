@@ -1,0 +1,77 @@
+#betslip-wrapper {
+    background: #2b2b2b;
+}
+.column.left-col {
+    width: 13%;
+}
+.column.mid-col {
+    width: 42%;
+}
+.column.setting {
+    width: 15%;
+}
+.column.setting-detail {
+    width: 60%;
+}
+.column.right-col {
+  width: 20%;
+  background: #484848;  
+}
+.column.mid-right-col {
+    width: 25%;
+  padding-right: 3px;
+    padding-left: 3px;
+  background: rgb(88, 88, 88);
+}
+.qlinks.title:after {
+}
+ul.home-tb-top {
+    padding: 0px;
+    margin: 0px;
+    background: #14805e;
+    margin-top: 46px;
+    border-top: 2px solid;
+    padding: 0px 10px;
+}
+ul.home-tb-top li {
+    display: inline-block;
+    color: #4acfa5;
+    font-size: 12px;
+}
+ul.home-tb-top li a {
+    font-size: 12px;
+    color: #4acfa5;
+}
+li.midall {
+    word-spacing: 15px;
+    width: 120px;
+}
+ul.home-tb-top li a:hover {
+    color: #fff;
+}
+i.fa.fa-play {
+    border: 1px solid;
+    padding: 0px 4px;
+}
+li.evts {
+    float: right;
+}
+li.alupcom {
+    width: 40%;
+}
+a._llrsp {
+    color: #fff!important;
+}
+.qlinks {
+    background: #696969!Important;
+}
+* { box-sizing: border-box; } a._llrsp { color: #fff; } body:not(.page-loaded) #body { display:none!Important } body:not(.page-loaded) div#mb_betslip { display:none!important } /* Create three equal columns that floats next to each other */ .jxhead { float: left; width: 33.33%; padding: 10px; } .jxhead.right { text-align: right; padding: 15px 5px; } .jxhead.center a:hover { color: #fff; } .jxhead.center:hover { color: #fff; } .jxhead.center a { color: #fff; } .jxhead.center { text-align: center; color: #ece7e7; font-size:15px } /* Clear floats after the columns */ .jxheadrow:after { content: ""; display: table; clear: both; } /* ensure menu is invisible on desktop version */ body:not(.mobile_menu_active) #header { display: none !important; } ul.top-menr { margin: 0; padding: 0; } ul.top-menr li { padding: 15px 10px 22px 10px; display: inline-block; } li.asport { border-bottom: 3px solid #ffdf1b; } ul.btm-nav { margin: 0; padding: 2px 15px; width: 100%; background: #14805e; border-top: 1px solid #189970; text-align: right; font-size: 13px; position: absolute; } ul.btm-nav li { display: inline-block; padding: 0px 10px; margin: 0; } ul.btm-nav a { color: #4acfa5; } ul.btm-nav a:hover { color: #f5f5f5; } .bottom-nav { width: 100%; background: #fff; } li.btm-time { float: left; color: #4acfa5; } ul.stilbtm { margin: 0; margin-top: 32px; padding: 0px; background: #474747; } ul.stilbtm li { display: inline-block; } li.stillbtm-right { float: right; padding-right: 10px; padding-left: 10px; border-right: 1px solid #595959; } li.stillbtm-left { border-right: 3px solid #4acfa5; width: 13%; padding-left: 10px; } li.stillbtm-right.nws { border-left: 1px solid #595959; } ul.btm-nav select#odd-type-switcher-dropdown { padding: 0px; background: transparent; border: none; color: #fff; } li.btmnav-odds { width: 134px; } a.odleft { float: left; } ul.btm-nav select#odd-type-switcher-dropdown:hover { background: #000!important; } ._betting-software{ display:none!important } /* addition of cookie */ ul.home-tb-top { margin: 0px; margin-top: 20px; background: #05bb4f; border-top: 2px solid; padding: 10px 10px; } ._viewaIn { float: right; font-size: 14px; background: #616161; padding: 0px 10px; } .scorecc.inp { background-position: 50%; background-repeat: no-repeat; height: 149px; width: 100%; margin: 0 auto; position: relative; z-index: 10; transition: height .2s,-webkit-transform .2s; transition: transform .2s,height .2s; transition: transform .2s,height .2s,-webkit-transform .2s; will-change: transform,height; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } ._cat-in { background: #244798; padding: 3px 10px; color: #fff; } ._inplay-opt { background: #5f5f5f; cursor: pointer; border-bottom: 1px solid #565555; padding: 2px 10px; font-size: 13px; } ._r-opt { float: right; /* background: #109854; */ width: 60px; text-align: center; border-radius: 3px; color: #ffcc0a; font-weight:bold; } ._inplay-opt:hover { background: #3c3b3b; } ._evnf { border-bottom: 1px solid #757474; background: #424242; font-size: 13px; } ._ftls { background: #474747; padding: 5px 0px 1px 10px; color: #ffffff; } a.ftsf { padding: 10px; } .bet-option.su0 { pointer-events: none; } .ssu { background: #2d6531; color: #fff; } ._showup.ef { display: none; } .bg_f { float: right; width: 50px; height: 20px; background-size: contain; background-repeat: no-repeat; margin-top: 4px; color: transparent; } .enn { background: #676767; padding: 5px 10px; color: #efb60f; } .enn a { color: #efb60f; } enn a:hover { color: #fff; } ul.home-tb-top { margin: 0px; margin-top: 20px; background: #05bb4f; border-top: 2px solid; padding: 10px 10px; } ul.home-tb-top li { display: inline-block; color: #fff; font-size: 12px; } ul.home-tb-top li a { font-size: 12px; color: #fff; } ul.home-tb-top li:hover { color: #000; } ._sub { width: 50%; float: left; margin-bottom: -28px; } ._livenow_block:after { content: ""; display: table; clear: both; } ._sub.img img { height: 170px; } .log-sign { float: right; margin-top: -33px; margin-right: 10px; } a.ftsl { margin-left: 20px; background: #105823; padding: 3px 10px; color: #fff; border-radius: 5px; text-decoration:none } a.ftsl:hover { background: #000; } .slip-bet-odd { background: #22a25c; padding: 0px 5px; border-radius: 3px; color: #fff; float: right; } ._r-opt.sus { background: #b3b3b3; color:#c7c5c5; } ._inplay-opt.sus { pointer-events: none; background: #b3b0b0; color:#d4cfcf!Important; } .submit-slip.sus { pointer-events: none; background: #b3b0b0; color:#b7b0b0!Important } .slip-bet-odd.oslipsu { pointer-events: none; }
+input#userSignInForm {
+    padding: 5px;
+    float: right;
+    margin-top: -46px;
+}
+input#userSignInForm {
+    border: 2px solid #089c2d;
+    background: #ddd;
+}

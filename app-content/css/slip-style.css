@@ -1,0 +1,196 @@
+.points-holder{
+	height: 55px; 
+	background: #eee;
+	color: black;
+}
+.betslp{
+	padding-top: 8px;
+}
+.multi-number{
+	padding: 4px 8px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: green;
+	color: white;
+}
+.betslip-wrapper-box{
+	background: #DCDCDC; 
+	color: black;
+}
+.bet-option-slip-wrapper{
+	font-size: 11px;
+  max-height: 320px;
+  height: auto;
+  overflow: scroll;
+}
+.pot-pure-box{
+  min-height: 65px;
+}
+.pot-name{
+	font-size: 15px;
+	border-top: .5px solid #eee;
+}
+.pot-name, .pot-parent, .pot-parent-parent{
+	height: 18px;
+	text-align: left;
+	color: #545454;
+}
+.pot-close{
+  text-align: right;
+  margin-top: -36px;
+  font-size: 15px;
+}
+.bet-open{
+  cursor: pointer;
+}
+#bet-open{
+  position: absolute;
+  right: 3%;
+  font-weight: bold;
+}
+.pot-action{
+  background: #eee;
+  height: 40px;
+}
+.pot-stake{
+  float: left;
+  left: 0;
+  margin: 0;
+  height: 40px;
+  width: 130px;
+  background: black;
+}
+.pot-rate{
+  text-align: center;
+  float: left;
+  width: 80px;
+  height: 40px;
+  background: #eee;
+  color: black;
+}
+.pot-rate-text{
+  height: 10px;
+  font-size: 10px;
+  margin-top: -6px;
+}
+.pot-rate-number{
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  color: red;
+}
+.pot-submit-button{
+  float: left;
+  width: 150px;
+  height: 40px;
+  background: green;
+  color: #eee;
+  text-align: center;
+}
+.pot-submit-one{
+  height: 12px;
+  font-size: 12px;
+  margin-top: -5px;
+}
+.pot-submit-two{
+  height: 11px;
+  font-size: 11px;
+  margin-top: 5px;
+}
+.pot-submit-two-number{
+  font-size: 15px;
+}
+.pot-stake-input{
+  min-width: 130px;
+  min-height: 40px;
+}
+
+.login-notice{
+  position: fixed;
+  left: 30%;
+  top: 10%;
+  width: 150px;
+  height: 150px;
+  background: #eee;
+  color: black;
+  text-align: center;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.login-notice-one, .login-notice-two{
+  height: 50%;
+}
+.login-notice-two a{
+  color: #696969;
+}
+.login-notice-close{
+  margin-left: 80%;
+}
+
+.pot-over-notice{
+  position: fixed;
+  left: 30%;
+  top: 10%;
+  width: 140px;
+  height: 150px;
+  background: #eee;
+  color: black;
+  text-align: center;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.pot-over-notice-one, .pot-over-notice-two{
+  height: 50%;
+}
+.pot-over-notice-two a{
+  color: #696969;
+}
+.pot-over-notice-close{
+  margin-left: 80%;
+}
+
+.samePot-notice{
+  position: fixed;
+  left: 30%;
+  top: 10%;
+  width: 140px;
+  height: 150px;
+  background: #eee;
+  color: black;
+  text-align: center;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.samePot-notice-one, .samePot-notice-two{
+  height: 50%;
+  font-size: 15px;
+  margin-left: 3px;
+}
+.samePot-notice-close{
+  margin-left: 80%;
+}
+
+.pot-error-notice-holder{
+  font-size: 12px;
+  padding-top: 15px;
+  color: green;
+  display: none;
+}
